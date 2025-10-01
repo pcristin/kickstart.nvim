@@ -900,7 +900,9 @@ require('lazy').setup({
     'ellisonleao/gruvbox.nvim',
     priority = 1000,
     config = true,
-    opts = {},
+    opts = {
+      transparent_mode = true,
+    },
   },
 
   -- Highlight todo, notes, etc in comments
