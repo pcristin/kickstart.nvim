@@ -1,7 +1,6 @@
 return {
   {
     'neovim/nvim-lspconfig',
-    event = 'LspAttach',
     init = function()
       local lsp_augroup = vim.api.nvim_create_augroup('custom-lsp-keymaps', { clear = true })
       vim.api.nvim_create_autocmd('LspAttach', {
